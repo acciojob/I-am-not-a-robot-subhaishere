@@ -19,7 +19,6 @@
 img {
   margin: 10px;
   border: 5px solid #555;
-  width: 10%;
 }
 
 .flex {
@@ -30,9 +29,7 @@ img {
 .selected {
   border: 5px solid rgb(0, 195, 255);
 }
-.text-center{
-	text-aliegn:center;
-}
+
 p {
   text-align: center;
 }
@@ -40,6 +37,9 @@ p {
 button {
   margin: 20px;
 }
-.d-none{
-	display:none
+
+#verify,
+#reset,
+#para {
+  display: none;
 }
